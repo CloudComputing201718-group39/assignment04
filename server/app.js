@@ -3,8 +3,8 @@
  * Cloud Computing Cource Exercises
  * Exercise 3
  *  Build A microservice
- * Developed by 'Write Group Name'
- * Write Names of All Members
+ * Developed by Group 39
+ * Vasiliki Sideri Lampretsa, Gabriela Hernandez, Stefan Su
  */
 // =============================================================================
 /**
@@ -75,7 +75,7 @@ router.route('/exercise3')
 router.route('/exercise4')
     .get(function(req, res)
     {
-        res.send("group 'GroupNumber' application deployed using kubernetes");
+        res.send("group 39 application deployed using kubernetes");
     });
 /**
  * REGISTER OUR ROUTES
